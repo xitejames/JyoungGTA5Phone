@@ -5,8 +5,8 @@ import BottomBar from './Components/BottomBar';
 
 const styles = makeStyles({
   root: {
-    height: '100%',
-    width: '100%',
+    height: '98vh',
+    width: '99vw',
   },
   phone: {
     display: 'flex',
@@ -20,8 +20,8 @@ const styles = makeStyles({
     border: '10px solid black',
     borderRadius: '10px',
     position: 'absolute',
-    left: 'calc(100% - 305px);',
-    top: 'calc(100% - 520px);',
+    left: 'calc(99vw - 285px);',
+    top: 'calc(98vh - 510px);',
   },
   phoneApplications: {
     height: '93%',
@@ -46,7 +46,7 @@ const App = () => {
         <div className={classes.phoneApplications}>
         </div>
         {/* 
-          * BOTTOM BAR BACK - HOME - SETTINGS
+          * BOTTOM BAR BACK - HOME - SETTINGS 
         */}
         <div className={classes.bottomBarDiv}>
           <BottomBar />
